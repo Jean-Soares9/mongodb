@@ -7,7 +7,7 @@
 const {conectar, desconectar} = require('./database')
 
 // importação do modelo de dados de clientes
-const clienteModel = require('./src/models/clientes')
+const clienteModel = require('./src/models/Clientes')
 
 // CRUD Create (função para adicionar um novo cliente)
 const criarCliente = async (nomeCli, foneCli) => {
