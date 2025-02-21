@@ -31,6 +31,7 @@ const criarCliente = async (nomeCli, foneCli) => {
 const app = async () => {
     await conectar()
     await criarCliente("Jean Andrade", "11912341234")
+    await criarCliente("Gabriel Yago", "11912341234")
     await desconectar()
 }
 
