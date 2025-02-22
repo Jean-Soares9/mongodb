@@ -1,0 +1,40 @@
+CRUD
+Create Read Update Delete
+(4 operações básicas para lidar com banco de dados)
+
+Banco de dados não relacional (nosql)
+nosql (não utiliza a linguagem sql)
+
+Passo 1 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+npm init (cria o package.json)
+
+Passo 2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Instalar o framework mongoose
+
+("facilitador" para trabalhar com o mongodb - conexão e CRUD)
+
+npm i mongoose
+
+Dica: Para reinstalar os pacotes descritos nas dependências do package.json, usar o comando
+
+npm install
+
+Passo 3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Estrutura do projeto
+raiz
+ |__ [src]
+ |     \_ [models]
+ |            \_Clientes.js
+ |
+ |____ database.js
+ |____ main.js
+
+Passo 4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Módulo de conexão (database.js)
+Obter a string de conexão do Atlas atravé do compass
+
+Passo 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+No main.js importar o módulo de conexão
+
+
+
