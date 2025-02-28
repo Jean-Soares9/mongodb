@@ -1,0 +1,18 @@
+MongoDB Atlas
+
+Setup:
+
+1) Acessar o link: https://www.mongodb.com/pt-br/cloud/atlas/register
+
+2) Criar uma conta ou entrar com a conta do google
+(opcional: preencher um formulário)
+
+3) Criar um cluster (Esccolher o cluster gratuito da nuvem recomendada)
+
+4) Overview (menu lateral) SECURITY
+   - Database Access
+     Criar usuário e senha e definir "Built-in Role": Atlas Admin
+   - Network Access
+     Clicar no botão Add ip address e selecionar o botão [allow access from anywere] 0.0.0.0/0
+
+5) Instalar e configurar o compass
